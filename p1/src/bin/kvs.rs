@@ -2,6 +2,7 @@
 use clap::{App, Arg, SubCommand};
 use std::process::exit;
 
+/// KvStore stores <key, value> pairs in a HashMap.
 fn main() {
     let matches = App::new("kvs")
         .version(env!("CARGO_PKG_VERSION"))
